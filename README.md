@@ -1,5 +1,5 @@
 # cdc-s3-sink
-Change Data Capture with AWS S3 as target
+Data Streaming with Change Data Capture - AWS S3 as a target
 
 <img src="architecture.png">
 
