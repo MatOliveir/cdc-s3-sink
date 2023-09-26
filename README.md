@@ -33,7 +33,8 @@ Change Data Capture with AWS S3 as target
     docker exec -it mysql /bin/bash
     ```
     ```sh
-    mysql -u root -p mysql123
+    mysql -u root -p
     ```
+    and write the password, mysql123;
 
 7. Do the DDL and DML commands that you want and see the files arriving in S3.
