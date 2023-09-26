@@ -1,6 +1,8 @@
 # cdc-s3-sink
 Change Data Capture with AWS S3 as target
 
+<img src="architecture.png">
+
 <br>
 
 ### Prerequisites
