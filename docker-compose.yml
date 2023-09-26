@@ -145,7 +145,7 @@ services:
 
         echo -e "\n--\n+> Creating Kafka Connect sink connectors"
         curl -i -X PUT -H  "Content-Type:application/json" \
-          http://localhost:8083/connectors/s3-connector/config \
+          http://localhost:8083/connectors/s3connector/config \
           -d '{
             "connector.class": "io.confluent.connect.s3.S3SinkConnector",
             "tasks.max": "1",
